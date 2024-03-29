@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    font-family: "Mulish", sans-serif;
+  }
+  
+  body {
+     background: #1f0038;
+  }
+  
+  header {
+    background: #1f0038;
+    height: 500px;
+  }
+  
+  h1 {
+    color: #96d0e8;
+    font-size: 35px;
+    width: 600px;
+    margin: 50px;
+  }
+  
+  h2 {
+    color: #96d0e8;
+    font-size: 25px;
+    margin-left: 50px;
+    width: 200px;
+  }
+  
+  .list1, .list2 {
+    color: #96d0e8;
+    font-size: 16px;
+    list-style: none;
+    margin-left: 70px;
+    width: 400px;
+  }
+  
+  .list1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .list2 {
+    margin-top: 15px;
+  }
+  
+  .Personal img {
+    border: 2px solid #96d0e8 ;
+    border-radius: 80px;
+    width: 360px;
+    margin-left: 60%;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .Title {
+    font-size: 40px;
+    width: 100px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 60px;
+  }
+  
+  main {
+    background: #1f0038;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .Card img {
+    border: 2px solid #96d0e8;
+    border-radius: 10px;
+    width: 450px;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  footer {
+    font-size: 16px;
+    height: 100px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  a {
+    font-size: 16px;
+    color: white;
+  }
+  
+  a:hover {
+    color: #96d0e8
+  }
